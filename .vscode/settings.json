@@ -1,0 +1,36 @@
+{
+  "editor.fontSize": 16,
+  "better-comments.tags": [
+    {
+      "tag": "🚨",
+      "color": "#ef5350",
+      "strikethrough": false
+    },
+    {
+      "tag": "☢️",
+      "color": "#fff59d",
+      "strikethrough": false
+    },
+    {
+      "tag": "✅",
+      "color": "#aed581",
+      "strikethrough": false
+    },
+    {
+      "tag": "💡",
+      "color": "#fff59d",
+      "strikethrough": false
+    },
+    {
+      "tag": "📚",
+      "color": "#e0e0e0",
+      "strikethrough": false
+    },
+    {
+      "tag": "==",
+      "backgroundColor": "#FFFFFF",
+      "color": "#000000",
+      "strikethrough": false
+    }
+  ]
+}
