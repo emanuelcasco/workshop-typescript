@@ -4,7 +4,20 @@
  <img src="assets/ts-image.png" alt="typescript is a toaster and javascript is bread" width="200" height="200">
 </p>
 
-[Typescript](http://www.typescriptlang.org/) (TS) es un lenguaje de programación Open Source desarrollado por Microsoft. Al ser un **superconjunto** de Javascript, cualquier programa de JS debería ser correctamente procesado por el compilador, los archivos de TS procesados son convertidos en JS convencional. TS extiende la sintaxis de JS sintaxis agregando tipado estatico y la posibilidad del uso de nuevas funcionalidad aún no implementadas en los motores.
+[Typescript](http://www.typescriptlang.org/) (TS) es un lenguaje de programación Open Source desarrollado por Microsoft publicado por primera vez en 2012. Es un **superconjunto** de Javascript, que extiende su sintaxis agregando **tipado estatico** y la posibilidad de usar nuevas features aún no disponibles en los engines de JS. Los archivos escritos en TS que son procesados por el compilador generan archivos en JS convencional.
+
+En la figura se puede observar el caracter de superconjunto de TypeScript, y como "envuelve" las funcionalidades disponibles en JavaScript y las nuevas versiones del estandar ECMAScript.
+
+<p align="center">
+ <img src="assets/ts2js.png" alt="typescript is a toaster and javascript is bread" width="400">
+</p>
+
+En el [Roadmap de TypeScript](https://github.com/microsoft/TypeScript/wiki/Roadmap) se encuentra disponible el listado de funcionalidades lanzadas (junto con un link a su descripción en detalle) y las nuevas funcionalidades a implementar.
+
+## Requisitos
+
+* Base solida de JavaScript.
+* Conocimiento en las últimas funcionalidades introducidas en [ES2016](https://javascriptplayground.com/es2016-and-beyond/).
 
 ## Materiales
 
@@ -13,15 +26,12 @@
 
 ## Temas
 
-1. 🔰 Tipado básico en TypeScript.
-2. 🧮 Funciones.
-3. 🎩 Clases.
-4. 📦 Tipos genericos.
-
-## Requisitos
-
-* Base solida de JavaScript.
-* Conocimiento en las últimas funcionalidades introducidas en [ES2016](https://javascriptplayground.com/es2016-and-beyond/).
+1. 🔰 [Tipado básico en TypeScript](/lessons/1-basics.ts).
+2. 🧮 [Funciones](/lessons/2-functions.ts).
+3. 📜 [Interfaces](/lessons/3-interfaces.ts).
+4. 🎩 [Clases](/lessons/4-classes.ts).
+5. 📦 [Tipos genericos](/lessons/5-generics.ts).
+5. 📦 [Guardas de tipos](/lessons/6-guards.ts).
 
 ## Licencia
 

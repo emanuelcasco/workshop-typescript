@@ -2,9 +2,21 @@
   "name": "workshop-typescript",
   "version": "0.0.1",
   "devDependencies": {
+    "@types/node": "^12.7.11",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.8.0",
+    "@typescript-eslint/parser": "^2.3.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-config-wolox": "^3.0.2",
+    "eslint-config-wolox-node": "^2.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.0",
+    "tslint": "^5.20.0",
     "typescript": "^3.7.2"
   },
-  "dependencies": {
-    "@types/node": "^12.7.11"
+  "scripts": {
+    "lint": "tsc --noEmit && eslint \"*/**/*.ts\""
   }
 }
