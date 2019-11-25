@@ -31,7 +31,8 @@ En el [Roadmap de TypeScript](https://github.com/microsoft/TypeScript/wiki/Roadm
 3. 📜 [Interfaces](/lessons/3-interfaces.ts).
 4. 🎩 [Clases](/lessons/4-classes.ts).
 5. 📦 [Tipos genericos](/lessons/5-generics.ts).
-5. 📦 [Guardas de tipos](/lessons/6-guards.ts).
+6. ⚔️ [Guardas de tipos](/lessons/6-guards.ts).
+7. 🔧 [Tipos utilitarios](/lessons/7-utils.ts).
 
 ## Licencia
 
